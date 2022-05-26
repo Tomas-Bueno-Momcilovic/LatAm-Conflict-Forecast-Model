@@ -15,7 +15,7 @@ This work is based on the following data sources:
 
 To export the ACLED dataset, open an account on developer.acled.org and generate an API key. To more easily load the dataset, change name to "latinamerica".
 
-Spatial joins between GADM and SPAM have been performed in QGIS v3.16.3-Hannover. Resulting data is available in a separate qgis folder and QGIS project (QGIS_preprocessing.qgz) here: https://syncandshare.lrz.de/getlink/fiUqhvDKEY8Lf34nUjcxN1KH/qgis.zip 
+Spatial joins between GADM and SPAM have been performed in QGIS v3.16.3-Hannover. Resulting data is available in a separate qgis folder and QGIS project (QGIS_preprocessing.qgz).
 
 Procedure to replicate the process is as follows:
 1. Download GADM world shapefile (or geopackage) and SPAM world dataset;
