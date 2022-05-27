@@ -1,9 +1,16 @@
-This is a template replication package for the course SOT863102– Machine Learning for Social Sciences (PhD).
-
 Author: Tomas Bueno dos Santos Momcilovic
 Date: 29.4.2022
 
-Run the master.R file to replicate the results, which are stored in the /results/ file.
+This is a replication package for the final project in the (SOT863102) Machine Learning for Social Sciences (PhD) seminar at the Technical University of Munich.
+
+The project represents an implementation of decision tree and random forest models for forecasting conflict in Latin America and Caribbean. The models use water access data and summary data on previous conflicts as the independent variables for estimating future conflict events. The model is a partial replication of Kuzma et al. (2020) implementation of the random forest model using 50 additional variables.
+
+Run the master.R file to replicate the results, which are stored in the /results/ folder.
+
+###### REFERENCES AND DEPENDENCIES ######
+
+Work inspired by: 
+Kuzma, S., P. Kerins, E. Saccoccia, C. Whiteside, H. Roos, & C. Iceland. (2020). Leveraging Water Data in a Machine Learning–Based Model for Forecasting Violent Conflict. Technical Note. Washington, DC: World Resources Institute. Retrieved from:www.wri.org/publication/leveraging-water-data
 
 This work is based on the following data sources:
 - ACLED data on armed conflicts and event data in Latin America (Mexico, South and Central America) and the Carribean, downloaded on 2nd May 2022 from https://acleddata.com/data-export-tool/
@@ -11,7 +18,7 @@ This work is based on the following data sources:
 - WHO and UNICEF data on drinking water access, downloaded on 2nd May 2022 from https://washdata.org/data/downloads
 -Global Administrative Areas shapefile data on country administrative areas, downloaded on 2nd May 2022 from http://www.gadm.org
 
-###### Notes on data downloads and preparation outside R ######
+###### DATA DOWNLOAD INSTRUCTIONS AND QGIS PREPARATION ######
 
 To export the ACLED dataset, open an account on developer.acled.org and generate an API key. To more easily load the dataset, change name to "latinamerica".
 
